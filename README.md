@@ -1,12 +1,17 @@
-### Introduction
-These are a collections of scripts I use to help me manage the documents I use to study. So far they are all from MIT open courseware. MIT has all these files for download, but they basically just dumps their website on you, including stuff like html and xml files, long terrible prefixes on everything and worse of all a MIT terms and conditions page at the back of every pdf. So these scripts help you sort all that out, although you'll have to drag and drop a few files around to make it look really nice.
+# Introduction
+ MIT has great course material for download, but they basically just dumps their course page on you. Problems with that include
+ 1. Many useless xml files and the like.
+ 2. Long prefixes like MIT18_06SCF11_ on almost every single pdf file.
+ 3. MIT terms and conditions page at the back of every pdf.
+ 
+ So these scripts help you sort all that out, although you'll have to drag and drop a few files around to make it look really nice.
 
 
-All files are recursively descending and will start at folder it is in. Make sure the subdirectories don't lead to anywhere you don't want it to lead.  
+All scripts are recursively descending and will start at folder it is in. Make sure the subdirectories don't lead to anywhere you don't want it to lead.  
 
 ## Courses supported
 
-These are the courses I have done/am doing and so the rename and remove scripts will work especially well for these. To extend the capabilities to other coursesyou will need you to modify the scripts a bit, like changing the prefixes. See details below.
+These are the courses I have done/am doing and so the rename and remove scripts will work especially well for these. To extend the capabilities to other courses you will need you to modify the scripts a bit, like changing the prefixes. See details below.
 
 * 18.02
 * 18.03
