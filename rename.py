@@ -7,6 +7,7 @@ import os
 # File prefixes
 # 'MIT18_03S10_'
 # 'MIT18_02SC_'
+# 'MIT18_06SCF11_'
 
 # Directory prefixes
 # 'session-'
