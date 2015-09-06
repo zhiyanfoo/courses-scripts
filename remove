@@ -1,0 +1,16 @@
+#!/bin/bash
+
+echo "Deleting files of type .htm .html .index .srt .xml .png .jpg, .jar and 00k.pdf(recitation transcipt files)"
+
+while true; do
+    read -p "Do you wish to proceed? (y/n)" proceed
+    if [ $proceed = "y" ]
+    then
+        break
+    elif [ $proceed = "n" ]
+    then
+        exit 0
+    fi
+done
+
+find -E . -type f -regex ".*(\.(html?|index|srt|xml|png|jpg|jar)|00k\.pdf)$" -delete

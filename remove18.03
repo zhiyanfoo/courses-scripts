@@ -1,0 +1,17 @@
+#!/bin/bash
+
+echo "Deleting files of type .htm .html .index .srt .xml .png .jpg, .jar, MIT18_03SCf11_app(app transcript files), 18_03-2006-L(lecture files) 00k.pdf(recitation transcipt files), files I personally found useless"
+
+while true; do
+    read -p "Do you wish to proceed? (y/n)" proceed
+    if [ $proceed = "y" ]
+    then
+        break
+    elif [ $proceed = "n" ]
+    then
+        exit 0
+    fi
+done
+
+find -E . -type f -regex ".*\.(html?|index|srt|xml|png|jpg|jar)$" -delete
+find -E . -type f -regex ".*(00k|MIT18_03SCf11_app+[0123456789]+|18_03-2006-L[0123456789]+)\.pdf$" -delete 
