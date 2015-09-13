@@ -1,10 +1,11 @@
 ## Introduction
- MIT has great course material for download, but they basically just dumps their course page on you. Problems with that include
- 1. Many useless xml files and the like.
- 2. Long prefixes like MIT18_06SCF11_ on almost every single pdf file.
- 3. MIT terms and conditions page at the back of every pdf.
+MIT has great course material for download, but they basically just dumps their course pageon you. Problems with that include
+
+1. Many useless xml files and the like.
+2. Long prefixes like MIT18_06SCF11_ on almost every single pdf file.
+3. MIT terms and conditions page at the back of every pdf.
  
- So these scripts help you sort all that out, although you'll have to drag and drop a few files around to make it look really nice.
+So these scripts help you sort all that out, although you'll have to drag and drop a few files around to make it look really nice.
 
 
 All scripts are recursively descending and will start at folder it is in. Make sure the subdirectories don't lead to anywhere you don't want it to lead.  
