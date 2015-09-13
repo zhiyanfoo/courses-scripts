@@ -14,3 +14,5 @@ while true; do
 done
 
 find -E . -type f -regex ".*(\.(html?|index|srt|xml|png|jpg|jar)|00k\.pdf)$" -delete
+
+find ./ -empty -type d -delete
