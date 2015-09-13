@@ -9,7 +9,7 @@
 
 All scripts are recursively descending and will start at folder it is in. Make sure the subdirectories don't lead to anywhere you don't want it to lead.  
 
-# Courses supported
+### Courses supported
 
 These are the courses I have done/am doing and so the rename and remove scripts will work especially well for these. To extend the capabilities to other courses you will need you to modify the scripts a bit, like changing the prefixes. See details below.
 
@@ -19,7 +19,7 @@ These are the courses I have done/am doing and so the rename and remove scripts 
 * 6.041 (pypdf encounters some errors with this course, more under bugs)
 
 
-# Remove Last Page
+### Remove Last Page
 Removes the last page of every pdf, useful for getting rid of terms and conditions page, so you don't waste paper and ink while printing. 
 
 
@@ -34,7 +34,7 @@ To run
 
 You don't want to run this script more than once in any particular folder. Note that sometimes PYPDF would have trouble processing a pdf file. See bugs for more.
 
-# Rename
+### Rename
 Removes prefix of all files 
 You must edit the file itself to get it to remove what prefix you want.
 > fi_prefix = 'whatever-prefix-you-want'
@@ -50,18 +50,18 @@ If you intent to change any directory names.
 To run
 > python rename.py
 
-# Remove
+### Remove
 
 Removes useless files like html and xml files. It will prompt with the file extensions it will remove, or you can read the file. It removes the recitation files for 18.02.
 
 
 > ./remove
 
-# Remove 18.03
+### Remove 18.03
 
 Same as remove, but also includes additional files specific to 18.03, see prompt or read file.
 
-# Bugs
+### Bugs
 
 PyPDF has trouble processing the following files in 6.041
 
@@ -70,5 +70,5 @@ PyPDF has trouble processing the following files in 6.041
 * MIT6_041SCF13_L18.pdf or 6-041sc-fall-2013/contents/unit-iii/lecture-18/MIT6_041SCF13_L18.pdf 
 * MIT6_041SCF13_L22.pdf or 6-041sc-fall-2013/contents/unit-iv/lecture-22/MIT6_041SCF13_L22.pdf  
 
-# Disclaimer
+### Disclaimer
 Only tested on OSX. Python scripts should be platform independent. Bash scripts should work on any *nix machine.
