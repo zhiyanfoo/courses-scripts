@@ -9,13 +9,15 @@ import os
 # 'MIT18_02SC_'
 # 'MIT18_06SCF11_'
 # 'MIT6_041SCF13_'
+# 'MIT18_100BF10_'
+# 'MIT18_100CF12_'
 
 # Directory prefixes
 # 'session-'
 
 # Change the variables below to whatever prefix you want to remove
-fi_prefix = 'MIT6_041SCF13_'
-di_prefix = "session-"
+fi_prefix = 'MIT18_100CF12_'
+# di_prefix = "session-"
 
 def remove_prefix(prefix, typ="file"):
     if typ == "file":

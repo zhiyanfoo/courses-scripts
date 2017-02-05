@@ -1,7 +1,8 @@
 ## Introduction
-MIT has great course material for download, but they basically just dumps their course pageon you. Problems with that include
 
-1. Many useless xml files and the like.
+MIT OpenCourseWare (OCW), is an excellent educational resource. Unfortuantely it is web-based and if you want to download their content,  they basically just dumps their course page on you. Problems with that include
+
+1. Many useless web-related files (html, xml and the like).
 2. Long prefixes like MIT18_06SCF11_ on almost every single pdf file.
 3. MIT terms and conditions page at the back of every pdf.
  
@@ -14,10 +15,12 @@ All scripts are recursively descending and will start at folder it is in. Make s
 
 These are the courses I have done/am doing and so the rename and remove scripts will work especially well for these. To extend the capabilities to other courses you will need you to modify the scripts a bit, like changing the prefixes. See details below.
 
-* 18.02
-* 18.03
-* 18.06
-* 6.041 (pypdf encounters some errors with this course, more under bugs)
+* [18.02 (Multivarable Calculus)](http://ocw.mit.edu/courses/mathematics/18-02-multivariable-calculus-fall-2007/ "Multivarable Calculus")
+* [18.03 (Differential Equations)](http://ocw.mit.edu/courses/mathematics/18-03-differential-equations-spring-2010/ "Differential Equations")]
+* [18.06 (Linear Algebra)](http://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/ "Linear Algebra")
+* [6.041 (Probabilistic Systems Analysis and Applied Probability)](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/ "Probabilistic Systems Analysis and Applied Probability") - pypdf encounters some errors with this course, more under bugs
+* [18.100b (Analysis I)](http://ocw.mit.edu/courses/mathematics/18-100b-analysis-i-fall-2010/index.htm  "Analysis I")
+* [18.100c (Real Analysis)](http://ocw.mit.edu/courses/mathematics/18-100c-real-analysis-fall-2012/ "Real Analysis")
 
 
 ### Remove Last Page
@@ -37,7 +40,7 @@ You don't want to run this script more than once in any particular folder. Note 
 
 ### Rename
 Removes prefix of all files 
-You must edit the file itself to get it to remove what prefix you want.
+You must **first edit the file itself** to get it to remove what prefix you want.
 > fi_prefix = 'whatever-prefix-you-want'
 
 > di_prefix = 'whatever-prefix-you-want'
