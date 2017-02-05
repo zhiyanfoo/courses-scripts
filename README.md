@@ -1,6 +1,8 @@
 ## Introduction
 
-MIT OpenCourseWare (OCW), is an excellent educational resource. Unfortuantely it is web-based and if you want to download their content,  they basically just dumps their course page on you. Problems with that include
+MIT OpenCourseWare (OCW) is great, but when you want to download their files,
+their website basically just dumps their whole course page on you. Problems
+with that include
 
 1. Many useless web-related files (html, xml and the like).
 2. Long prefixes like MIT18_06SCF11_ on almost every single pdf file.
