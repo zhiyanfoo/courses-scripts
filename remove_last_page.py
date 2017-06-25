@@ -6,12 +6,12 @@ li = [i for i in os.walk(os.getcwd())]
 
 for di in li:
     root = di[0]
-    print root
+    print(root)
     for fi in di[2]:
         lent = len(fi)
         if fi[lent-4:lent] == ".pdf" and fi[lent-8:lent-4] != escape_sequence:
             fi_path = os.path.join(root, fi)
-            print fi_path
+            print(fi_path)
             orgpdf = open(fi_path,'rb')
             orgpdf_reader = PyPDF2.PdfFileReader(orgpdf)
             newpdf_writer = PyPDF2.PdfFileWriter()

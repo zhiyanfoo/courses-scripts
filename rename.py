@@ -16,7 +16,7 @@ import os
 # 'session-'
 
 # Change the variables below to whatever prefix you want to remove
-fi_prefix = 'MIT18_100CF12_'
+fi_prefix = 'MIT24_241F09_'
 # di_prefix = "session-"
 
 def remove_prefix(prefix, typ="file"):
@@ -25,19 +25,19 @@ def remove_prefix(prefix, typ="file"):
     elif typ == "directory":
         fi_or_dir = 1
     else:
-        print "invalid file type"
+        print("invalid file type")
         exit()
     li = [i for i in os.walk(os.getcwd())]
     for di in li:
         root = di[0]
-        print root
+        print(root)
         for ele in di[fi_or_dir]:
             #print ele
             if ele[:len(prefix)] == prefix:
                 new_name = os.path.join(root, ele[len(prefix):])
                 old_name = os.path.join(root, ele)
-                print old_name
-                print new_name
+                print(old_name)
+                print(new_name)
                 os.rename(old_name, new_name)
 
 
